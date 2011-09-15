@@ -21,14 +21,26 @@ body {
 	background-image: url('../images/fondo.png');
 }
 
-#logo {
+#Coic {
 	position: absolute;
 	top: 30px;
 	left: 50px; 
 	height: 200px;
 	width: 400px;
+	margin-left: 200px;
 	background-size: auto;
-	background-image: url('../images/logo.png');
+	background-image: url('../images/coic.png');
+	background-repeat: no-repeat;
+}
+#LaPelicula {
+	position: absolute;
+	top: 30px;
+	left: 50px; 
+	height: 200px;
+	width: 400px;
+	margin-left: 600px;
+	background-size: auto;
+	background-image: url('../images/LaPelicula.png');
 	background-repeat: no-repeat;
 }
 #login
@@ -49,18 +61,12 @@ body {
 	border-bottom-style: groove;
 	border-bottom-width: 2px;
 	position: relative; 
-	height: 150px; 
-	margin-top: 30px;
+	height: 180px; 
 }
 
-#header ul {
-	position: absolute;
-	margin-left: 250px;
-	margin-top: 60px;
-}
+
 
 #header ul li {
-	postion: relative;
 	display: inline;
 	
 }
