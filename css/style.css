@@ -2,62 +2,88 @@
 
 body {
 	background-color: #E0E0E0;
+	font-family: serif;
 }
+
+@font-face {
+    font-family:cooperBlack;
+    src: url('../images/fuentes/CooperBlackStd.otf');
+    font-weight:200;
+}
+
 
 #wrapper {
 	align: relative;
 	width: 1200px;
-	height: 1000px;
+	height: 1500px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #FCFCFC;
+	background-image: url('../images/fondo.png');
 }
 
 #logo {
 	position: absolute;
-	top: 10px;
-	left: 280px; background-image : url('../images/movie.jpg');
-	height: 70px;
-	width: 300px;
+	top: 30px;
+	left: 50px; 
+	height: 200px;
+	width: 400px;
 	background-size: auto;
-	background-image: url('../images/movie.jpg');
+	background-image: url('../images/logo.png');
+	background-repeat: no-repeat;
 }
-
+#login
+{
+	position: relative; 
+	padding-top: 10px;
+	padding-right: 20px;
+	text-align: right;
+	
+}
+#login a{
+	font-size: 18px;
+	font-family: serif;
+	color: rgb(74,170,243);
+}
 #header {
-	background-color: #F7F7F7;
-	position: relative;
-	width: 900px;
-	height: 150px;
-	margin-left: auto;
-	margin-right: auto;
-	top: 10px;
-	border-style: solid;
-	border-width: 2px;
+	background-image: url('../images/header.png');
+	border-bottom-style: groove;
+	border-bottom-width: 2px;
+	position: relative; 
+	height: 150px; 
+	margin-top: 30px;
 }
 
 #header ul {
-	position: relative;
-	left: 50px;
-	top: 90px;
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 60px;
 }
 
 #header ul li {
+	postion: relative;
 	display: inline;
+	
+}
+
+#header ul li a {
+	font-family: cooperBlack,  sans-serif;
+	text-decoration: none;
+	color: rgb(74,170,243);
+	padding: 14px 50px;
+	text-align: center;
+	font-size: 40px;
 }
 
 #navigation ul li {
 	position: relative;
+	font-family: sans-serif;
+	color: white;
 	left: 110px;
 	display: inline;
 	padding: 14px 10px;
 }
-
-#header ul li a {
-	font-family: serif;
-	font-color: black;
-	padding: 14px 50px;
-	text-align: center;
-	font-size: 40px;
+#navigation a{
+	color:white;
 }
 
 .curved {
@@ -68,18 +94,56 @@ body {
 
 #pdf {
 	position: relative;
-	background-image: url('../images/pefcoic.png');
+	background-image: url('../images/convocatoria.png');
 	width: 850px;
-	height: 700px;
+	height: 1100px;
 	margin-left: auto;
 	margin-right: auto;
-	border-style: solid;
+	border-style: none;
 	border-width: 2px;
 }
-
+	
 #footer ul li {
-	font-family: serif;
+
 	display: inline;
+	float:left;
+	font-family:  cooperBlack,Times New Roman,Times,serif !important;
+    font-size: 20px;
+    font-style: normal;
 	padding: 14px 10px;	
 	
 }
+
+#footer a{
+	 font-family: cooperBlack;
+	 color:white;
+	 font-size: 20px;
+}
+
+#facebook{
+	float:right;
+	margin-right:46px;
+	margin-left: 20px;
+	margin-top: 20px;
+	background-image: url('../images/facebook.png');	
+	width:28px;
+	height:28px;
+	border:0px,;
+
+}
+#twitter{
+	float:right;
+	margin-right:80x;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	background-image: url('../images/twitter.png');	
+	width:28px;
+	height:28px;
+	border:0px,;
+
+}
+
+
+
+
