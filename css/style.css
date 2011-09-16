@@ -72,10 +72,37 @@ body {
 }
 
 #main {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 20px;
 	height:auto;
 	width: 100%;
 }
+
+#main_up{
+	width:100%;
+	height: 20px;
+	width: 100%;
+	
+	
+}
+
+
+#searchbar{
+	position: relative;
+	float:left;
+	height: 100%;
+	
+}
+
+#upload_material{
+	position: relative;
+	float:right;
+	height: 100%;
+	
+}
+
 
 #main_menu {
 	position: relative;
