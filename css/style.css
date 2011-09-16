@@ -72,6 +72,7 @@ body {
 }
 
 #main {
+	margin-top: 20px;
 	height:auto;
 	width: 100%;
 }
@@ -144,24 +145,6 @@ body {
 	font-size: 40px;
 }
 
-#navigation {
-	height: 20px;
-	width:100%;
-	margin-top:10px;
-}
-
-#navigation ul li {
-	position: relative;
-	font-family: sans-serif;
-	color: white;
-	left: 110px;
-	display: inline;
-	padding: 14px 10px;
-}
-
-#navigation a {
-	color: white;
-}
 
 .curved {
 	-moz-border-radius: 10px;
